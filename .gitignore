@@ -161,3 +161,37 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+.DS_Store
+
+# Project-specific ignores
+checkpoints/
+data/
+
+# Wandb runs and logs
+wandb/
+*.wandb
+
+# Large tokenizer files (optional - comment out if you want to commit them)
+tokenizer/*.pkl
+
+# Environment variables (if you create one)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
